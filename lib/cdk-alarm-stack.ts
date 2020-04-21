@@ -4,7 +4,7 @@ import * as subs from '@aws-cdk/aws-sns-subscriptions'
 import * as cw from '@aws-cdk/aws-cloudwatch'
 import * as lambda from '@aws-cdk/aws-lambda'
 import * as iam from '@aws-cdk/aws-iam'
-import * as cw_actions from '@aws-cdk/aws-cloudwatch-actions';
+import * as cw_actions from '@aws-cdk/aws-cloudwatch-actions'
 
 export class CdkAlarmStack extends cdk.Stack {
   constructor(scope: cdk.Construct, id: string, props?: cdk.StackProps) {
